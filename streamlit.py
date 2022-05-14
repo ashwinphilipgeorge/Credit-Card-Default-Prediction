@@ -7,10 +7,10 @@ st.title('Prediction of Credit Card Defaults')
 st.text('This app was created by Ashwin Philip George for the module CET023.')
 st.text('4 models are used in this app.')
  
-GB_model = joblib.load("./models/gradient_boosting")
-DT_model = joblib.load("./models/cart_model")
-RFR_model = joblib.load("./models/random_forest")
-LR_model = joblib.load("./models/linear_regression")
+GB_model = joblib.load("./gradient_boosting")
+DT_model = joblib.load("./cart_model")
+RFR_model = joblib.load("./random_forest")
+LR_model = joblib.load("./linear_regression")
 
 models = {'Gradient Boost Model': GB_model,
           'Decision Tree Model': DT_model,
