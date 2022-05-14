@@ -48,4 +48,4 @@ def predictor(model,age,income,loan):
 if st.button('Predict'):
     for key,item in models.items():
         answer = predictor(item,age,income,loan)
-        st.write('The ' + key+ ' predicts that the user ' + answer + "on their credit card loans")
+        st.write('The ' + key+ ' predicts that the user ' + answer + " on their credit card loans")
